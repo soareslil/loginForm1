@@ -11,10 +11,20 @@ html, body {
 
 .full-screen-container {
 background-image: url("pictures/background_image.jpg");
-height: 192vh;
-width: 192vh;
+height: 200vh;
+width: 200vh;
 background-size: cover;
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
+
+.login-container {
+background-color: rgba(201, 208, 223, 0.6);
+padding: 50px 30px;
+min-width: 400px;
+width: 50%;
+max-width: 600px;
+}
+
