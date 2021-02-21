@@ -21,7 +21,7 @@ align-items: center;
 
 
 .login-container {
-background-color: rgba(201, 208, 223, 0.6);
+background-color: rgba(13, 13, 14, 0.6);
 padding: 50px 30px;
 min-width: 400px;
 width: 50%;
@@ -57,4 +57,20 @@ border:1px solid rgb(197, 201, 247);
 outline: none;
 border-radius: 5px;
 font-weight: lighter;
+}
+
+.input-group input:focus {
+border: 3px solid rgb(55, 56, 65);
+}
+
+.login-button {
+padding: 10px 30px;
+width: 100%;
+background-color: rgb(162, 164, 182) ;
+border: 1px solid rgb(197, 201, 247);
+outline: none;
+font-size: 1.5em;
+font-weight: lighter;
+margin-top:100px;
+cursor: pointer;
 }
