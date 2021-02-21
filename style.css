@@ -44,7 +44,7 @@ margin-bottom: 20px;
 }
 
 .input-group label{
-color: white;
+color: rgb(247, 243, 243);
 font-weight: lighter;
 font-size: 1.5em;
 margin-bottom: 7px;
@@ -52,7 +52,7 @@ margin-bottom: 7px;
 
 .input-group input {
 font-size: 1.53em;
-background-color: rgb(215, 225, 235);
+background-color: rgba(215, 225, 235, 0.233);
 border:1px solid rgb(197, 201, 247);
 outline: none;
 border-radius: 5px;
@@ -66,7 +66,7 @@ border: 3px solid rgb(55, 56, 65);
 .login-button {
 padding: 10px 30px;
 width: 100%;
-background-color: rgb(162, 164, 182) ;
+background-color: rgba(162, 164, 182, 0.486) ;
 border: 1px solid rgb(197, 201, 247);
 outline: none;
 font-size: 1.5em;
@@ -74,3 +74,11 @@ font-weight: lighter;
 margin-top:100px;
 cursor: pointer;
 }
+
+.login-button:hover{
+background-color: rgba(55, 56, 65, 0.342);
+}
+
+.login-button:focus{
+    background-color: rgba(55, 56, 65, 0.767);
+    }
