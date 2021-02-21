@@ -4,3 +4,17 @@
 box-sizing: border-box;
 font-family: 'poppins', sans-serif;
 }
+
+html, body {
+    margin: 0;
+}
+
+.full-screen-container {
+background-image: url("pictures/background_image.jpg");
+height: 192vh;
+width: 192vh;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
